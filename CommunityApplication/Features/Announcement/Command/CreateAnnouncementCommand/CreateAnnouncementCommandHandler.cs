@@ -25,7 +25,8 @@ namespace CommunityApplication.Features.Announcement.Command.CreateAnnouncementC
                 IsPublished = request.newAnnouncement.IsPublished,
                 IsDeleted = request.newAnnouncement.IsDeleted,
                 CreatedByUserId = request.newAnnouncement.CreatedByUserId,
-                CreatedDate = DateTime.Now
+                CreatedDate = DateTime.Now,
+                
             };
 
             _context.Announcements.Add(announcement);

@@ -35,7 +35,7 @@ namespace CommunityApplication.Features.Announcement.Command.UpdateAnnouncementC
             var dto = new AnnouncementDto
             {
                 AnnouncementId = existingAnnouncement.AnnouncementId,
-                Title = existingAnnouncement.Title,
+                Title = existingAnnouncement.Title, 
                 Description = existingAnnouncement.Description,
                 CategoryName = existingAnnouncement.Category?.CategoryName,
                 ImageUrl = existingAnnouncement.ImageUrl,
